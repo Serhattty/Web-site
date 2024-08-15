@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+
+    background:url(backgraund.jpg);
+    height: 100vh;
+    background-size:100% 100%;
+
+}
+
+.container .navbar{
+
+    width:100%;
+    height:80px;
+    background: rgba(8, 160, 54, 0.212);
+    user-select:none;
+}
+
+.navbar .logo{
+
+    display: inline-block;
+    margin-left 50px;
+    margin-top:20px;
+    
+}
+
+.navbar .logo a{
+
+    text-decoration:none;
+    font-size:30px;
+    font-family:sans-serif;
+    color: beige;
+    user-select:none;
+}
+
+.navbar ul{
+
+    float: right;
+    margin-right 20px;
+
+}
+
+.navbar ul li{
+
+    list-style:none;
+    display:inline-block;
+    margin:0 8px;
+    line-height:80px;
+    user-select:none;
+    
+
+
+}
+
+.navbar ul li a{
+
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    padding:6px 13px;
+    font-family:;
+    font-family:Roboto;
+    transition:.5s;
+}
+
+
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+
+    background:rgb(15, 126, 83);
+
+
+}
+
+.container .center{
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-family:sans-serif;
+    user-select:none;
+}
+
+.center h1{
+
+    color:rgba(18, 85, 51, 0.801);
+    font-size:70px;
+    font-weight:bold;
+    width:900px;
+    text-align:center;
+}

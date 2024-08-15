@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+
+    background:url(backgraund.jpg);
+    height: 100vh;
+    background-size:100% 100%;
+    scrollbar-width:;
+
+      
+}
+
+.container .navbar{
+
+    width:100%;
+    height:80px;
+    background: rgba(8, 160, 54, 0.212);
+    user-select:none;
+}
+
+.navbar .logo{
+
+    display: inline-block;
+    margin-left 50px;
+    margin-top:20px;
+    
+}
+
+.navbar .logo a{
+
+    text-decoration:none;
+    font-size:30px;
+    font-family:sans-serif;
+    color: beige;
+    user-select:none;
+}
+
+.navbar ul{
+
+    float: right;
+    margin-right 20px;
+}
+
+.navbar ul li{
+
+    list-style:none;
+    display:inline-block;
+    margin:0 8px;
+    line-height:80px;
+    user-select:none;
+
+
+}
+
+.navbar ul li a{
+
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    padding:6px 13px;
+    font-family:;
+    font-family:Roboto;
+    transition:.5s;
+}
+
+
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+
+    background:rgb(15, 126, 83);
+
+
+}
+
+.container .tablo1{
+
+    position:absolute;
+    top:50%;
+    left:40%;
+    transform:translate(-50%,-50%);
+    font-family:sans-serif;
+    user-select:none;
+}
+
+.tablo1{
+
+    
+    text-decoration:none;
+    height:575px;  /* buradaki değişiklik tablonun yukarı aşağı konumus  */
+    width:750px;  /* buradaki değişikli tablonun sağ veya sol konumu */
+    text-align:center;
+    user-select:;
+    
+    
+}
+.tablo1 a{
+
+    text-decoration:none;
+    color:#800000;
+
+    
+    
+    
+}   
+
+.container .tablo2{
+
+    position:absolute;
+    top:50%;
+    left:60%;
+    transform:translate(-50%,-50%);
+    font-family:sans-serif;
+    user-select:none;
+}
+
+
+.tablo2{
+
+    
+    text-decoration:none;
+    height:575px;  /* buradaki değişiklik tablonun yukarı aşağı konumus  */
+    width:50px;  /* buradaki değişikli tablonun sağ veya sol konumu */
+    text-align:center;
+    
+    
+}
+
+.tablo2 a{
+
+    text-decoration:none;
+    color:#800000;
+    
+    
+}   
+
+.tablo1 img{
+      /* şeffaflık */
+      opacity: 0.8;
+      
+          
+}
+  
+.tablo2 img{
+      /* şeffaflık */
+      opacity: 0.8;
+
+}
+  
+
+.container .tablo3{
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-family:sans-serif;
+    user-select:none;
+}
+
+
+.tablo3{
+
+    
+    text-decoration:none;
+    height:575px;  /* buradaki değişiklik tablonun yukarı aşağı konumus  */
+    width:400px;  /* buradaki değişikli tablonun sağ veya sol konumu */
+    text-align:center;
+    
+    
+}
+
+.tablo3 a{
+
+    text-decoration:none;
+    color:#800000;
+    
+    
+}   
+
+
+.tablo3 img{
+
+          /* şeffaflık */
+          opacity: 0.8;
+
+}
